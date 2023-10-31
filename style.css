@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: beige;
+}
+h1{
+    text-decoration: solid;
+    text-align: center;
+}
+.party{
+    border-top: 1px solid black;
+    border-bottom: 1pm solid black;
+}
+.party > h2{
+    text-shadow: 1px 1px rgb(179, 0, 89);
+    border-bottom: 1px dashed rebeccapurple;
+}
+.party > p{
+    background-color: rgb(230, 230, 199);
+    padding-left: 1%;
+}
+
+.party-details{
+    background-color: rgb(196, 195, 154);
+}
+
+.party-details > h2{
+    background-color: rgb(168, 168, 132);
+}
+.party-details > p{
+    padding-left: 1%;
+}
